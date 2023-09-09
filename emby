@@ -1,4 +1,6 @@
-DOMAIN-SUFFIX,https://free.emby.eu.org
-DOMAIN-SUFFIX,https://misty.ltd
-DOMAIN-SUFFIX,https://public.emby.ws:443
+DOMAIN-SUFFIX,free.emby.eu.org
+DOMAIN-SUFFIX,misty.ltd
+DOMAIN-SUFFIX,public.emby.ws
+DOMAIN-SUFFIX,free.emby.eu.org
+DOMAIN-SUFFIX,9wfree.emby.eu.org
 DOMAIN-KEYWORD,emby
