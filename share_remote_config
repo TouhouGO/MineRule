@@ -74,6 +74,10 @@ custom_proxy_group=🤖 AI`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节�
 custom_proxy_group=🎵 TikTok`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点
 custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点
 custom_proxy_group=🔍 Google`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`.*
+
+
+
+
 custom_proxy_group=🇭🇰 香港节点`select`(港|HK|Hong Kong)
 custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)
 custom_proxy_group=🇺🇲 美国节点`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
@@ -86,6 +90,9 @@ custom_proxy_group=🇺🇲 美国节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][
 custom_proxy_group=🇨🇳 台湾节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|TW|Taiwan)).*$)`http://www.gstatic.com/generate_204`300,100
 custom_proxy_group=🇸🇬 狮城节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore)).*$)`http://www.gstatic.com/generate_204`300,100
 custom_proxy_group=🇰🇷 韩国节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓)).*$)`http://www.gstatic.com/generate_204`300,100
+custom_proxy_group=🎦 Emby`select`(港|HK|Hong Kong)|(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)|(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))|(台|新北|彰化|TW|Taiwan)|(新加坡|坡|狮城|SG|Singapore)|(KR|Korea|KOR|首尔|韩|韓)
+
+
 custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🎯 全球直连`[]🇨🇳 台湾节点-自动`[]🇭🇰 香港节点-自动
 custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港节点-自动`[]🇨🇳 台湾节点-自动`[]🇸🇬 狮城节点-自动`[]🇯🇵 日本节点-自动`[]🇺🇲 美国节点-自动`[]🇰🇷 韩国节点-自动`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点-自动`[]🇨🇳 台湾节点-自动`[]🇸🇬 狮城节点-自动`[]🇯🇵 日本节点-自动`[]🚀 手动切换
