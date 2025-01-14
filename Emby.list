@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,misty.ltd
 DOMAIN-SUFFIX,public.emby.ws
 DOMAIN-SUFFIX,free.emby.eu.org
 DOMAIN-SUFFIX,9wfree.emby.eu.org
-HOST-SUFFIX,dpxcf.niceduck.lol
-HOST-SUFFIX,cf.niceduck.lol
-HOST-SUFFIX,jcf.niceduck.lol
-HOST-SUFFIX,niceduck.lol
+DOMAIN-SUFFIX,dpxcf.niceduck.lol
+DOMAIN-SUFFIX,cf.niceduck.lol
+DOMAIN-SUFFIX,jcf.niceduck.lol
+DOMAIN-SUFFIX,niceduck.lol
