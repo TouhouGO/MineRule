@@ -169,10 +169,8 @@ rules:
   - RULE-SET,facebook_ip,🌐 社交媒体
   - RULE-SET,google_ip,🇬 谷歌服务
   - RULE-SET,netflix_ip,🎥 Netflix
-  - RULE-SET,cn_domain,🎯 全球直连
-  - RULE-SET,cn_ip,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
-  #自定义规则补充
+  #自定义规则补充###自定义规则集第二部###第一步在下面#####
+  #############示例###RULE-SET,my_custom_rules,🚀 手动选择
   - DOMAIN-SUFFIX,javday.app,🚀 手动选择
   - DOMAIN-SUFFIX,pornhub.com,🚀 手动选择
   - DOMAIN-SUFFIX,xvideos.com,🚀 手动选择
@@ -183,6 +181,11 @@ rules:
   - DOMAIN-SUFFIX,imdb.com,🚀 手动选择
   - DOMAIN-SUFFIX,media-imdb.com,🚀 手动选择
   - DOMAIN-SUFFIX,tmdb.org,🚀 手动选择
+  - RULE-SET,bangumi,🚀 手动选择
+  #######################################分割线#########################################
+  - RULE-SET,cn_domain,🎯 全球直连
+  - RULE-SET,cn_ip,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
 
 # 规则集
 rule-anchor:
@@ -219,6 +222,11 @@ rule-providers:
   disney: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"}
   hbo: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/hbo.mrs"}
   primevideo: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/primevideo.mrs"}
+  #################自定义配置
+  #################添加自定义规则第一步###########################################################
+  #示例###my_custom_rules: { <<: *class, url: "https://raw.githubusercontent.com/yourusername/yourrepo/main/myrules.list" }#################################################
+  bangumi: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/bangumi.list" }
+  #############################################################################################
   spotify: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"}
   bahamut: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs"}
   steam: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.mrs"}
