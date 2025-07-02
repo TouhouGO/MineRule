@@ -9,7 +9,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
+    # proxy: 直连 # 此行已移除，proxy-providers 不应引用直连
 
 # 节点信息
 proxies:
@@ -33,7 +33,7 @@ global-client-fingerprint: chrome
 # 控制面板
 external-controller: 0.0.0.0:9090
 secret: ""
-external-ui: "/etc/nikki/run"
+external-ui: "/etc/nikki/run" # 确保此路径在你的环境中存在
 external-ui-name: zashboard
 external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
 
@@ -74,11 +74,10 @@ dns:
     - "time.*.com"
   default-nameserver:
     - 223.5.5.5
+    - 119.29.29.29
   proxy-server-nameserver:
     - https://223.5.5.5/dns-query
-  nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+  # nameserver 已移除，避免与 default-nameserver 重复且功能相近
 
 # 出站策略
 # 定义锚点以复用策略组选项
@@ -131,7 +130,7 @@ proxy-groups:
 rules:
   - RULE-SET,emby,🎥 Emby
   - RULE-SET,private_domain,🎯 全球直连
-  - RULE-SET,。没有找到匹配项: private_ip,🎯 全球直连
+  - RULE-SET,private_ip,🎯 全球直连 # 修正了此行，移除了额外文字
   - RULE-SET,custom_direct,🎯 全球直连
   - RULE-SET,custom_proxy,🚀 手动选择
   - RULE-SET,direct,🎯 全球直连
