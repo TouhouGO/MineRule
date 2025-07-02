@@ -172,6 +172,17 @@ rules:
   - RULE-SET,cn_domain,🎯 全球直连
   - RULE-SET,cn_ip,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+  #自定义规则补充
+  - DOMAIN-SUFFIX,javday.app,🚀 手动选择
+  - DOMAIN-SUFFIX,pornhub.com,🚀 手动选择
+  - DOMAIN-SUFFIX,xvideos.com,🚀 手动选择
+  - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 手动选择
+  - DOMAIN-SUFFIX,91porn.com,🚀 手动选择
+  - DOMAIN-SUFFIX,jable.tv,🚀 手动选择
+  - DOMAIN-SUFFIX,javrate.com,🚀 手动选择
+  - DOMAIN-SUFFIX,imdb.com,🚀 手动选择
+  - DOMAIN-SUFFIX,media-imdb.com,🚀 手动选择
+  - DOMAIN-SUFFIX,tmdb.org,🚀 手动选择
 
 # 规则集
 rule-anchor:
