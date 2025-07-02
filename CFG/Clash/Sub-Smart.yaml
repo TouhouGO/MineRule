@@ -171,17 +171,8 @@ rules:
   - RULE-SET,netflix_ip,🎥 Netflix
   #自定义规则补充###自定义规则集第二部###第一步在下面#####
   #############示例###RULE-SET,my_custom_rules,🚀 手动选择
-  - DOMAIN-SUFFIX,javday.app,🚀 手动选择
-  - DOMAIN-SUFFIX,pornhub.com,🚀 手动选择
-  - DOMAIN-SUFFIX,xvideos.com,🚀 手动选择
-  - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 手动选择
-  - DOMAIN-SUFFIX,91porn.com,🚀 手动选择
-  - DOMAIN-SUFFIX,jable.tv,🚀 手动选择
-  - DOMAIN-SUFFIX,javrate.com,🚀 手动选择
-  - DOMAIN-SUFFIX,imdb.com,🚀 手动选择
-  - DOMAIN-SUFFIX,media-imdb.com,🚀 手动选择
-  - DOMAIN-SUFFIX,tmdb.org,🚀 手动选择
   - RULE-SET,bangumi,🚀 手动选择
+  - RULE-SET,forward-widget,🚀 手动选择
   #######################################分割线#########################################
   - RULE-SET,cn_domain,🎯 全球直连
   - RULE-SET,cn_ip,🎯 全球直连
@@ -225,7 +216,8 @@ rule-providers:
   #################自定义配置
   #################添加自定义规则第一步###########################################################
   #示例###my_custom_rules: { <<: *class, url: "https://raw.githubusercontent.com/yourusername/yourrepo/main/myrules.list" }#################################################
-  bangumi: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/bangumi.list" }
+  bangumi: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/Rule-Set/Emby.list" }
+  forward-widget: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/Rule-Set/Forward" }
   #############################################################################################
   spotify: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"}
   bahamut: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs"}
