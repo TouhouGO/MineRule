@@ -216,7 +216,7 @@ rule-providers:
   #################自定义配置
   #################添加自定义规则第一步###########################################################
   #示例###my_custom_rules: { <<: *class, url: "https://raw.githubusercontent.com/yourusername/yourrepo/main/myrules.list" }#################################################
-  bangumi: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/Rule-Set/Emby.list" }
+  bangumi: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/Rule-Set/bangumi.list" }
   forward-widget: { <<: *class, url: "https://raw.githubusercontent.com/TouhouGO/MineRule/refs/heads/main/Rule-Set/Forward" }
   #############################################################################################
   spotify: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"}
